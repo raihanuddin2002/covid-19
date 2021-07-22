@@ -29,7 +29,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center menu">
                         <li class="nav-item">
                             <a class="nav-link active text-blue-green" aria-current="page" href="#">Home</a>
                         </li>
@@ -46,7 +46,7 @@
                             <a class="nav-link  text-blue-green" aria-current="page" href="#">Prevension</a>
                         </li>
                         <li class="nav-item ms-4">
-                            <button class="bg-white border-danger rounded-pill py-2 px-5"> <a class="nav-link active text-tomato fw-bold" aria-current="page" href="#">Contact</a></button>
+                            <button class="bg-white border-danger rounded-pill py-2 px-5 menu-btn"> <a class="nav-link active text-tomato fw-bold menu-btn-text" aria-current="page" href="#">Contact</a></button>
                         </li>
 
                     </ul>
@@ -237,13 +237,30 @@
                         </div>
                     </div>
                 </div>
-
-
-
+                <!-- blank -->
+                <div class="d-none d-lg-block blank" style="height: 50px;"> </div>
+                <div class="d-block d-lg-none blank" style="height: 30px;"> </div>
+                <!-- blank -->
+                <p class="map text-center">
+                    <img src="images/map.png" class="img-fluid" alt="">
+                </p>
             </div>
         </div>
     </main>
 
+    <footer>
+        <!-- subcribe section -->
+        <section class="container-fluid subscribe-section bg-success p-3">
+            <div class="row  p-5 rounded-3">
+                <h2 class="subscribe-header text-center fs-1 text-blue-green mb-5">Have Question in mind? Let us help you</h2>
+                <div class="submit-section text-center">
+                    <input type="email" placeholder="Your Email" class="px-4 py-3 border-danger rounded-pill me-3 mb-3" cols="20" style="width: 60%;">
+                    <button class="btn-danger border-0 text-white px-5 py-3 rounded-pill" type="submit">Send</button>
+                </div>
+            </div>
+        </section>
+        <p class="bg-danger text-center text-white p-3">2020 @ All rights reserved by pixelspark.co</p>
+    </footer>
     <script src="js/bootstrap.min.js"></script>
 </body>
 

@@ -24,6 +24,17 @@ body {
 }
 
 
+/* Header section */
+
+.nav-item:hover .nav-link {
+    color: #FB4C47 !important;
+}
+
+.menu-btn:hover .menu-btn-text {
+    color: #fb4d47c5 !important;
+}
+
+
 /* =====================
     Second section CSS
 =======================*/
